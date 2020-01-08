@@ -1,8 +1,6 @@
 # flink-notes
 flink的一些学习笔记，持续更新
 
-[TOC]
-
 ## 一、技术博客索引
 1. [Flink中文官方文档](https://flink.apache.org/zh/) 
     >综合类，中文，不全
@@ -27,6 +25,10 @@ flink的一些学习笔记，持续更新
 
 ## 三、学习书籍
 [《追源索骥：透过源码看懂Flink核心框架的执行流程.pdf》](./books/追源索骥：透过源码看懂Flink核心框架的执行流程.pdf)
+    > from github
+
+[《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf)
+    > 英文版,100多页的小册子
 
 补充中……
 
