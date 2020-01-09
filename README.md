@@ -28,6 +28,53 @@ flink的一些学习笔记，持续更新
 
 ## 二、优秀文章索引
 
+### 1、基础入门
+
+[flink web 上传的jar包在哪里？](http://www.54tianzhisheng.cn/2019/03/13/flink-job-jars/ )
+
+> ${flink-web-url}/#/job-manager/config 的```web.tmpdir```配置相关 
+
+[flink如何处理依赖](https://ci.apache.org/projects/flink/flink-docs-release-1.9/dev/projectsetup/dependencies.html)
+
+> Note on IntelliJ: To make the applications run within IntelliJ IDEA, the Flink dependencies need to be declared in scope compile rather than provided. Otherwise IntelliJ will not add them to the classpath and the in-IDE execution will fail with a NoClassDefFountError. To avoid having to declare the dependency scope as compile (which is not recommended, see above), the above linked Java- and Scala project templates use a trick: They add a profile that selectively activates when the application is run in IntelliJ and only then promotes the dependencies to scope compile, without affecting the packaging of the JAR files.
+
+[Apache Flink 类型和序列化机制简介](https://ververica.cn/developers/introduction-to-type-and-serialization-mechanisms/)
+
+> ![Flink类型分类](./img/introduction-to-type-and-serialization-mechainisms-1.png)
+
+[聊聊flink的ParameterTool](https://juejin.im/post/5c660f06e51d4501302e307c)
+
+> flink程序使用启动参数时会用到
+
+
+
+补充中……
+
+### 2、进阶
+
+[Flink on yarn 官方文档](https://ci.apache.org/projects/flink/flink-docs-master/zh/ops/deployment/yarn_setup.html#start-flink-session)
+
+> Flink提供了两种在yarn上运行的模式，分别为Session-Cluster和Per-Job-Cluster模式，本文分析两种模式及启动流程。
+
+[Flink metric 官方文档](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html)
+
+> flink内部收集指标: Counter 计数器、Gauge 一个值、Meter 统计吞吐量，单位时间内发生的次数、Histogram 统计数据分布，Max Min Mean
+
+[Flink WaterMark分析](https://juejin.im/post/5bf95810e51d452d705fef33)
+
+[Flink HA & 恢复策略 &并发度 --待补充]()
+
+[Flink有什么办法解决由于Key partition造成的数据倾斜问题？ ---待补充]()
+
+### 3、比赛
+
+[Apache Flink极客挑战赛——Flink TPC-DS性能优化](https://tianchi.aliyun.com/competition/entrance/231742/introduction?spm=5176.12281949.1003.4.41af2448eCyOzJ)
+
+[Apache Flink极客挑战赛——垃圾图片分类](https://tianchi.aliyun.com/competition/entrance/231743/introduction?spm=5176.12281949.1003.26.41af2448eCyOzJ)
+
+
+
+
 补充中……
 
 
