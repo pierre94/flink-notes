@@ -20,6 +20,12 @@ flink的一些学习笔记，持续更新
 6. [flink-china:flink-training-course](https://github.com/flink-china/flink-training-course)
    > 本系列课程由 Apache Flink Community China 官方出品。主要是钉钉群里的直播视频和PPT
 
+7. [realguoshuai的Hadoop生态圈中常用大数据组件文档](https://github.com/realguoshuai/hadoop_study)
+    >  包含Flink Solr Sparksql ES Scala Kafka Hbase/phoenix Redis Kerberos (项目包含hadoop思维导图 印象笔记 Scala版本简单demo 常用工具类 去敏后的train code,适合入门学习
+
+8. [zhisheng17的flink博客](https://github.com/zhisheng17/flink-learning)
+   > 含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容，适合入门学习。 不过一些内容可能要到他付费的知识星球才能看到。
+
 
 
 补充中……
@@ -87,13 +93,21 @@ flink的一些学习笔记，持续更新
 
 补充中……
 
-## 四、相关项目
+## 四、相关开源项目
 
 ### 1、flinkx:基于flink实现的分布式数据同步工具
 [flinkx](https://github.com/DTStack/flinkx)
 
 
-[《数据同步工具Flinkx的研究与实践》](https://blog.csdn.net/u013128262/article/details/103510510)
+> 自己的一篇学习总结[《数据同步工具Flinkx的研究与实践》](https://blog.csdn.net/u013128262/article/details/103510510)
+
+### 2、flinkk8soperator
+[flinkk8soperator github地址](https://github.com/lyft/flinkk8soperator)
+> 待测试
+
+### 3、Alink
+[Alink github地址](https://github.com/alibaba/Alink)
+
 
 补充中……
 
