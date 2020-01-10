@@ -1,5 +1,6 @@
 # flink-notes
-flink的一些学习笔记，持续更新
+flink的一些学习笔记，将在github上持续更新
+> [https://github.com/pierre94/flink-notes](https://github.com/pierre94/flink-notes)
 
 ## 一、技术博客索引
 1. [Flink中文官方文档](https://flink.apache.org/zh/) 
@@ -67,6 +68,10 @@ flink的一些学习笔记，持续更新
 > flink内部收集指标: Counter 计数器、Gauge 一个值、Meter 统计吞吐量，单位时间内发生的次数、Histogram 统计数据分布，Max Min Mean
 
 [Flink WaterMark分析](https://juejin.im/post/5bf95810e51d452d705fef33)
+
+[fanrui:在 Flink 算子中使用多线程如何保证不丢数据？](https://mp.weixin.qq.com/s/YWKw8jhTdaDoppkcoYYf7g)
+>基于CyclicBarrier实现。对于非 CPU 密集型的任务可以使用该方案来提高 CPU 利用率,有实现demo源码
+
 
 [Flink HA & 恢复策略 &并发度 --待补充]()
 
