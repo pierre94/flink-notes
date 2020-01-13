@@ -72,6 +72,15 @@ flink的一些学习笔记，将在github上持续更新
 [fanrui:在 Flink 算子中使用多线程如何保证不丢数据？](https://mp.weixin.qq.com/s/YWKw8jhTdaDoppkcoYYf7g)
 >基于CyclicBarrier实现。对于非 CPU 密集型的任务可以使用该方案来提高 CPU 利用率,有实现demo源码
 
+[Flink 流式计算在节省资源方面的简单分析](https://ververica.cn/developers/flink-saves-resources-analysis/)
+> Apache Flink 在小米的发展;含与spark的模型对比。
+
+[Flink Checkpoint 问题排查实用指南](https://ververica.cn/developers/flick-checkpoint-troubleshooting-practical-guide/)
+> 在实际情况中，我们可能会遇到 Checkpoint 失败，或者 Checkpoint 慢的情况，本文会统一聊一聊 Flink 中 Checkpoint 异常的情况（包括失败和慢），以及可能的原因和排查思路。
+
+
+
+
 
 [Flink HA & 恢复策略 &并发度 --待补充]()
 
@@ -90,11 +99,17 @@ flink的一些学习笔记，将在github上持续更新
 
 
 ## 三、学习书籍
-[《追源索骥：透过源码看懂Flink核心框架的执行流程.pdf》](./books/追源索骥：透过源码看懂Flink核心框架的执行流程.pdf)
+[pdf:《追源索骥：透过源码看懂Flink核心框架的执行流程.pdf》](./books/追源索骥：透过源码看懂Flink核心框架的执行流程.pdf)
 >from github
 
-[《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf)
+[pdf:《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf)
 >英文版,100多页的小册子
+
+[微信读书:《深入理解Flink:实时大数据处理实践》](https://weread.qq.com/web/reader/b19329f071845564b199467)
+> 包含一部分FlinkML
+
+[微信读书:《Flink原理、实战与性能优化》](https://weread.qq.com/web/reader/56332f30718247bd563ee2f)
+> 待阅读
 
 补充中……
 
