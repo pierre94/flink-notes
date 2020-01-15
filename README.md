@@ -27,6 +27,10 @@ flink的一些学习笔记，将在github上持续更新
 8. [zhisheng17的flink博客](https://github.com/zhisheng17/flink-learning)
    > 含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容，适合入门学习。 不过一些内容可能要到他付费的知识星球才能看到。
 
+9. [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)
+    > 包含Hadoop\Hive\Spark\Storm\Flink\Hbase\Kafka\Zookeeper\Flume\Sqoop\Azkaban\Scala等模块的文章
+
+10. 
 
 
 补充中……
@@ -134,3 +138,6 @@ flink的一些学习笔记，将在github上持续更新
 ## 五、源码实践
 
 补充中……
+
+## 六、其他
+[Apache Flink 中文用户邮件列表](http://apache-flink.147419.n8.nabble.com/)
