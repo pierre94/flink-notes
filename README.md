@@ -113,7 +113,10 @@ flink的一些学习笔记，将在github上持续更新
 > 包含一部分FlinkML
 
 [微信读书:《Flink原理、实战与性能优化》](https://weread.qq.com/web/reader/56332f30718247bd563ee2f)
-> 待阅读
+> 阅读中,总体比较全面……  [github源码地址 https://github.com/zlb1028/learning-flink](https://github.com/zlb1028/learning-flink)
+
+[flink中文社区出品: flink知识图谱](./books/Apache-Flink-Stateful-Computations-over-Data-Streams.pdf)
+> 脑图形式: 一图在手,学好flink不愁! (此图待深入学习)
 
 补充中……
 
@@ -139,5 +142,8 @@ flink的一些学习笔记，将在github上持续更新
 
 补充中……
 
-## 六、其他
+## 六、知识细点
+
+
+## 七、其他
 [Apache Flink 中文用户邮件列表](http://apache-flink.147419.n8.nabble.com/)
