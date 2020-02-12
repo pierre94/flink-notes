@@ -116,6 +116,9 @@ flink的一些学习笔记，将在github上持续更新
 [pdf:《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf)
 >英文版,100多页的小册子
 
+[pdf:《Flink基础教程》(《Introduction to Apache Flink》中文版)](./books/Flink基础教程.pdf)
+> 上面那本书《Introduction to Apache Flink》的中文版
+
 [微信读书:《深入理解Flink:实时大数据处理实践》](https://weread.qq.com/web/reader/b19329f071845564b199467)
 > 包含一部分FlinkML
 
