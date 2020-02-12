@@ -37,7 +37,7 @@ flink的一些学习笔记，将在github上持续更新
     > 资料位于github
 
 12. [youtube: Flink Forward San Francisco 2015-2017](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA)
-    > 需要翻墙
+    > 需要翻```wall```上外网
 
 补充中……
 
@@ -147,6 +147,9 @@ flink的一些学习笔记，将在github上持续更新
 
 ## 五、源码实践
 
+[wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
+> 亲测可用。 https://github.com/wuchong/flink-sql-submit 1) 能用来提交 SQL 文件的 SqlSubmit 实现。 2） 用于演示的 SQL 示例、Kafka 启动停止脚本、 一份测试数据集、Kafka 数据源生成器
+
 补充中……
 
 ## 六、知识细点
@@ -216,7 +219,9 @@ flink的一些学习笔记，将在github上持续更新
 - Flink 在小米的应用与实践(视频) https://www.bilibili.com/video/av68914405/
 
 ### 袋鼠云
-- https://files.alicdn.com/tpsservice/65149b8dc2643415c0a10878195d38b2.pdf 趣头条:
+- https://files.alicdn.com/tpsservice/65149b8dc2643415c0a10878195d38b2.pdf 
+
+### 趣头条:
 - https://ververica.cn/corporate_practice/qtt-real-time-platform-construction-practice-based-on-flink/ 
 
 ### 快手
