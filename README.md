@@ -150,6 +150,13 @@ flink的一些学习笔记，将在github上持续更新
 
 ## 五、源码实践
 
+### 1、入门案例
+
+- WordCount:统计单词出现的频率
+
+
+### 2、
+
 [wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
 > 亲测可用。 https://github.com/wuchong/flink-sql-submit 1) 能用来提交 SQL 文件的 SqlSubmit 实现。 2） 用于演示的 SQL 示例、Kafka 启动停止脚本、 一份测试数据集、Kafka 数据源生成器
 
@@ -247,3 +254,4 @@ flink的一些学习笔记，将在github上持续更新
 
 ## 八、其他
 [Apache Flink 中文用户邮件列表](http://apache-flink.147419.n8.nabble.com/)
+[flink社区包 https://flink-packages.org/](https://flink-packages.org/)
