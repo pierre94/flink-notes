@@ -155,7 +155,12 @@ flink的一些学习笔记，将在github上持续更新
 - WordCount:统计单词出现的频率
 
 
-### 2、
+### 2、电商行为分析系列
+> 可以参考尚硅谷的这篇[文档](./books/电商用户行为数据分析.pdf)自由发挥
+
+- 状态编程:[订单超时告警](./detail/state-program.md)
+
+
 
 [wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
 > 亲测可用。 https://github.com/wuchong/flink-sql-submit 1) 能用来提交 SQL 文件的 SqlSubmit 实现。 2） 用于演示的 SQL 示例、Kafka 启动停止脚本、 一份测试数据集、Kafka 数据源生成器
