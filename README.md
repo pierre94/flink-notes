@@ -160,6 +160,8 @@ flink的一些学习笔记，将在github上持续更新
 
 - 状态编程:[订单超时告警](./detail/state-program.md)
 
+- Connect:[Flink双流处理:实时对账实现](./detail/Flink双流处理-实时对账实现.pdf)
+
 
 
 [wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
