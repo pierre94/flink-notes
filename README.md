@@ -173,90 +173,19 @@ flink的一些学习笔记，将在github上持续更新
 
 
 ## 七、企业案例
+- Tencent
+- 阿里巴巴
+- B站
+- ByteDance(字节跳动)
+- Criteo
+- eBay
+- DellEMC
+- DiDi(滴滴)
+- Intel
 
-> 主要来自Flink中文社区的整理
+……
 
-### Tencent
-- 基于Apache Flink的平台化构建及运维优化经验(ppt) https://files.alicdn.com/tpsservice/9bcc469feb3dcca4ea15226e70e23ed5.pdf 
-- 基于Apache Flink的平台化构建及运维优化经验(视频) https://yq.aliyun.com/live/703 (大概从03:04:00处开始)
-- Apache Flink 在腾讯实时计算平台中的实践(ppt)
-> https://files.alicdn.com/tpsservice/e663abe7c45661ec6b4a6e8bf0d16a32.pdf
-- Apache Flink 在腾讯实时计算平台中的实践(视频)https://www.bilibili.com/video/av50935702
-
-
-### 阿里巴巴
-1. https://ververica.com/blog/blink-flink-alibaba-search
-2. https://files.alicdn.com/tpsservice/23c67b6682c7d74339af7c53fccac429.pdf 
-3. https://files.alicdn.com/tpsservice/8dab3c208f8044a26937a7bd7aed3c3d.pdf 
-4. https://files.alicdn.com/tpsservice/badd0c8d32c9008d95addc0a28f1eb11.pdf
-
-### B站
-- Flink在B站的应用和实践(ppt) https://files.alicdn.com/tpsser- vice/834a31a74bd5bc1e7e4fb2a8c46fdd66.pdf 
-- Flink在B站的应用和实践(视频) https://www.bilibili.com/video/av52637658/
-
-### ByteDance(字节跳动)
-- https://files.alicdn.com/tpsservice/6b7686e18135389a76e2a0e476b270ec.pdf
-
-### Criteo
-- https://files.alicdn.com/tpsservice/c429c9351675f89a56000489519135a8.pdf 
-- https://yq.aliyun.com/live/702 (大概从01:27:00处开始)
-
-### eBay
-- 基于 Kubernetes 的 Flink 特性及管理(ppt)https://files.alicdn.com/tpsservice/6b9bd1843b5065- cae6b329d4238a84a6.pdf
-- 基于 Kubernetes 的 Flink 特性及管理(视频)https://www.bilibili.com/video/av52637658/
-
-### DellEMC
-- https://files.alicdn.com/tpsservice/8c72901db4a4bda83e33d35b8e6d0ecd.pdf
-
-### DiDi(滴滴)
-- https://files.alicdn.com/tpsservice/aca017af879a657ed0983b8f1cf4bbfd.pdf
-
-### Intel
-- Take advantage of DPCM in Flink(ppt) https://files.alicdn.com/tpsservice/440bf9d770da0f274- fa6ec69276197eb.pdf
-- Take advantage of DPCM in Flink(视频) https://www.bilibili.com/video/av67458709/
-
-### iQIYI(爱奇艺)
-- https://files.alicdn.com/tpsservice/c421720fcb1c51026257cd770923844a.pdf 
-
-### meituan(美团):
-- https://files.alicdn.com/tpsservice/d855dadbdeacb1d7bae82c2780a545b5.pdf
-
-### OPPO
-- 基于Apache Flink SQL构建实时数仓(ppt) https://files.alicdn.com/tpsservice/13849590bcd8d391049adf9de12499b8.pdf 
-- 基于Apache Flink SQL构建实时数仓(视频) https://www.bilibili.com/video/av50935702
-
-### Qunar(去哪儿)
-- https://files.alicdn.com/tpsservice/44558decf0f39980283107647d1e5755.pdf
-
-### Uber
-- https://files.alicdn.com/tpsservice/9bf841f251392aedcbb7cc98c5d140fa.pdf https://yq.aliyun.com/live/702
-
-### Xiaomi(小米)
-- Flink 在小米的应用与实践(ppt) https://files.alicdn.com/tpsservice/d77d3ed3f2709790f0d84f4ec279a486.pdf 
-- Flink 在小米的应用与实践(视频) https://www.bilibili.com/video/av68914405/
-
-### 袋鼠云
-- https://files.alicdn.com/tpsservice/65149b8dc2643415c0a10878195d38b2.pdf 
-
-### 趣头条:
-- https://ververica.cn/corporate_practice/qtt-real-time-platform-construction-practice-based-on-flink/ 
-
-### 快手
-- https://ververica.cn/corporate_practice/kuaishou/
-
-### 网易
-- 网易云音乐基于Flink的实时计算平台实践(ppt)
-> https://files.alicdn.com/tpsservice/6e80a73d98bada41275f08487a1382bd.pdf 
-- 网易云音乐基于Flink的实时计算平台实践(视频) 
-> https://www.bilibili.com/video/av50935702
-
-### 携程
-- https://mp.weixin.qq.com/s/H3mFfUXhJ1kp_Sp9Rr_D3Q
-
-### 中国农业银行
-- Apache Flink在中国农业银行的探索和实践(ppt) https://files.alicdn.com/tpsservice/80188db16e5f23d8ba7c04d0674d064d.pdf
-- Apache Flink在中国农业银行的探索和实践(视频)https://www.bilibili.com/video/av66720978/
-
+内容过多，汇聚到独立页面。详见 [这里](./企业案例.md)！
 
 ## 八、flink-weekly学习摘要
 > 摘取***Flink Weekly***中自己感兴趣的一些部分
