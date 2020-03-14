@@ -128,6 +128,12 @@ flink的一些学习笔记，将在github上持续更新
 [flink中文社区出品: flink知识图谱](./books/Apache-Flink-Stateful-Computations-over-Data-Streams.pdf)
 > 脑图形式: 一图在手,学好flink不愁! (此图待深入学习)
 
+[Apache Flink特刊（正式电子版）2019](./books/Apache%20Flink特刊（正式电子版）2019.pdf)
+
+[为什么学习flink](./books/flink-china-为什么学习flink.pdf)
+
+[flink关于checkpoint的疑虑](./books/flink%20关于checkpoint%20疑虑%20.pdf)
+
 补充中……
 
 ## 四、相关开源项目
