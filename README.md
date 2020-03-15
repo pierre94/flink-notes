@@ -3,41 +3,32 @@ flink的一些学习笔记，将在github上持续更新
 > [https://github.com/pierre94/flink-notes](https://github.com/pierre94/flink-notes)
 
 ## 一、技术博客索引
-1. [Flink中文官方文档](https://flink.apache.org/zh/) 
-    >综合类，中文，不全
+1. [Flink中文官方文档](https://flink.apache.org/zh/)   | 综合类，中文，不全
+   
 
-2. [Flink官方博客](https://flink.apache.org/blog/)
-    > 读文档永远是学习的首选方向
+2. [Flink官方博客](https://flink.apache.org/blog/)  |  读文档永远是学习的首选方向
 
-3. [Flink中文社区ververica](https://ververica.cn/)
-    > Flink中文社区,大量学习资料和视频
+3. [Flink中文社区ververica](https://ververica.cn/)   | Flink中文社区,大量学习资料和视频
+ 
 
-4. [JarkWu的博客](http://wuchong.me/)
-    > Flink committer,主要是Flink SQL方向
+4. [JarkWu的博客](http://wuchong.me/)   |  Flink committer,主要是Flink SQL方向
+  
 
-5. [VinoYang的博客](https://blog.csdn.net/yanghua_kobe/article/category/6170573)
-   > Flink项目活跃贡献者，主要是flink早期的一些文章
+5. [VinoYang的博客](https://blog.csdn.net/yanghua_kobe/article/category/6170573)   | Flink项目活跃贡献者，主要是flink早期的一些文章
 
-6. [flink-china:flink-training-course](https://github.com/flink-china/flink-training-course)
-   > 本系列课程由 Apache Flink Community China 官方出品。主要是钉钉群里的直播视频和PPT
+6. [flink-china:flink-training-course](https://github.com/flink-china/flink-training-course)  | 本系列课程由 Apache Flink Community China 官方出品。主要是钉钉群里的直播视频和PPT
 
-7. [realguoshuai的Hadoop生态圈中常用大数据组件文档](https://github.com/realguoshuai/hadoop_study)
-    >  包含Flink Solr Sparksql ES Scala Kafka Hbase/phoenix Redis Kerberos (项目包含hadoop思维导图 印象笔记 Scala版本简单demo 常用工具类 去敏后的train code,适合入门学习
+7. [realguoshuai的Hadoop生态圈中常用大数据组件文档](https://github.com/realguoshuai/hadoop_study)  | 包含Flink Solr Sparksql ES Scala Kafka Hbase/phoenix Redis Kerberos (项目包含hadoop思维导图 印象笔记 Scala版本简单demo 常用工具类 去敏后的train code,适合入门学习
 
-8. [zhisheng17的flink博客](https://github.com/zhisheng17/flink-learning)
-   > 含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容，适合入门学习。 不过一些内容可能要到他付费的知识星球才能看到。
+8. [zhisheng17的flink博客](https://github.com/zhisheng17/flink-learning)  | 含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容，适合入门学习。 不过一些内容可能要到他付费的知识星球才能看到。
 
-9. [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)
-    > 包含Hadoop\Hive\Spark\Storm\Flink\Hbase\Kafka\Zookeeper\Flume\Sqoop\Azkaban\Scala等模块的文章
+9. [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)  | 包含Hadoop\Hive\Spark\Storm\Flink\Hbase\Kafka\Zookeeper\Flume\Sqoop\Azkaban\Scala等模块的文章
 
-10. [Flink Forward Asia 2019](https://ververica.cn/developers/flink-forward-asia-2019/)
-    > 资料位于Flink中文社区ververica.cn
+10. [Flink Forward Asia 2019](https://ververica.cn/developers/flink-forward-asia-2019/) | 资料位于Flink中文社区ververica.cn
 
-11. [Flink Forward China 2018](https://github.com/flink-china/flink-forward-china-2018)
-    > 资料位于github
+11. [Flink Forward China 2018](https://github.com/flink-china/flink-forward-china-2018)  | 资料位于github
 
-12. [youtube: Flink Forward San Francisco 2015-2017](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA)
-    > 需要翻```wall```上外网
+12. [youtube: Flink Forward San Francisco 2015-2017](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA) | 需要翻```wall```上外网
 
 补充中……
 
@@ -57,11 +48,8 @@ flink的一些学习笔记，将在github上持续更新
 
 [Apache Flink 类型和序列化机制简介](https://ververica.cn/developers/introduction-to-type-and-serialization-mechanisms/)
 
-> ![Flink类型分类](./img/introduction-to-type-and-serialization-mechainisms-1.png)
+[聊聊flink的ParameterTool](https://juejin.im/post/5c660f06e51d4501302e307c) | flink程序使用启动参数时会用到
 
-[聊聊flink的ParameterTool](https://juejin.im/post/5c660f06e51d4501302e307c)
-
-> flink程序使用启动参数时会用到
 
 
 
@@ -92,7 +80,6 @@ flink的一些学习笔记，将在github上持续更新
 ### 3、官方实用文档索引
 [flink prometheus](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html#prometheus-orgapacheflinkmetricsprometheusprometheusreporter)
 
-
 [Flink HA & 恢复策略 &并发度 --待补充]()
 
 [Flink有什么办法解决由于Key partition造成的数据倾斜问题？ ---待补充]()
@@ -110,23 +97,18 @@ flink的一些学习笔记，将在github上持续更新
 
 
 ## 三、学习书籍
-[pdf:《追源索骥：透过源码看懂Flink核心框架的执行流程.pdf》](./books/追源索骥：透过源码看懂Flink核心框架的执行流程.pdf)
->from github
+[pdf:《追源索骥：透过源码看懂Flink核心框架的执行流程.pdf》](./books/追源索骥：透过源码看懂Flink核心框架的执行流程.pdf) | from github
 
-[pdf:《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf)
->英文版,100多页的小册子
+[pdf:《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf) | 英文版,100多页的小册子
 
-[pdf:《Flink基础教程》(《Introduction to Apache Flink》中文版)](./books/Flink基础教程.pdf)
-> 上面那本书《Introduction to Apache Flink》的中文版
+[pdf:《Flink基础教程》(《Introduction to Apache Flink》中文版)](./books/Flink基础教程.pdf) | 上面那本书《Introduction to Apache Flink》的中文版
 
-[微信读书:《深入理解Flink:实时大数据处理实践》](https://weread.qq.com/web/reader/b19329f071845564b199467)
-> 包含一部分FlinkML
+[微信读书:《深入理解Flink:实时大数据处理实践》](https://weread.qq.com/web/reader/b19329f071845564b199467) | 包含一部分FlinkML
 
 [微信读书:《Flink原理、实战与性能优化》](https://weread.qq.com/web/reader/56332f30718247bd563ee2f)
 > 阅读中,总体比较全面……  [github源码地址 https://github.com/zlb1028/learning-flink](https://github.com/zlb1028/learning-flink)
 
-[flink中文社区出品: flink知识图谱](./books/Apache-Flink-Stateful-Computations-over-Data-Streams.pdf)
-> 脑图形式: 一图在手,学好flink不愁! (此图待深入学习)
+[flink中文社区出品: flink知识图谱](./books/Apache-Flink-Stateful-Computations-over-Data-Streams.pdf) | 脑图形式: 一图在手,学好flink不愁! (此图待深入学习)
 
 [Apache Flink特刊（正式电子版）2019](./books/Apache%20Flink特刊（正式电子版）2019.pdf)
 
@@ -145,8 +127,8 @@ flink的一些学习笔记，将在github上持续更新
 > 自己的一篇学习总结[《数据同步工具Flinkx的研究与实践》](https://blog.csdn.net/u013128262/article/details/103510510)
 
 ### 2、flinkk8soperator
-[flinkk8soperator github地址](https://github.com/lyft/flinkk8soperator)
-> 待测试
+[flinkk8soperator github地址](https://github.com/lyft/flinkk8soperator)  | 待测试
+
 
 ### 3、Alink
 [Alink github地址](https://github.com/alibaba/Alink)
@@ -195,16 +177,9 @@ flink的一些学习笔记，将在github上持续更新
 
 ## 八、flink-weekly学习摘要
 > 摘取***Flink Weekly***中自己感兴趣的一些部分
-### Flink Weekly | 每周社区动态更新 - 2020/03/01 
-- 有两位用户都碰到了Flink 1.10 Hive集成的kerberos认证异常，问题还在排查中。
-    http://apache-flink.147419.n8.nabble.com/Flink-1-10-hive-kerberos-td1751.html
 
-- 猫猫提出了flink-jdbc-driver的使用问题，引出了目前batch不支持UpsertTableSink，也就是不支持目前的JDBCUpsertSink和HBaseUpsertSink，目前正在支持中。
-    http://apache-flink.147419.n8.nabble.com/flink-jdbc-driver-mysql-flink1-10-0-td1763.html
+[详情](flink-weekly.md)
 
-- 有两位用户都遇到了Class冲突的问题，这是因为Flink
-  1.10把客户端的ClassLoader解析顺序调整为了Child优先，这就导致用户的Jar包不能包含Flink框架的classes，比如常见的Calcite、Flink-Planner依赖、Hive依赖等等。用户需要把有冲突classes的jar放到flink-home/lib下，或者调整策略为Parent优先。
-    http://apache-flink-mailing-list-archive.1008284.n3.nabble.com/Flink-1-10-exception-Unable-to-instantiate-java-compiler-td38221.html
 ## 九、其他
 - [Apache Flink 中文用户邮件列表](http://apache-flink.147419.n8.nabble.com/)
 
