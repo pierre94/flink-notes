@@ -2,39 +2,51 @@
 flink的一些学习笔记，将在github上持续更新
 > [https://github.com/pierre94/flink-notes](https://github.com/pierre94/flink-notes)
 
-## 一、技术博客索引
-1. [Flink中文官方文档](https://flink.apache.org/zh/)   | 综合类，中文，不全
+[TOC]
+
+
+## 一、官方资料索引
+
+- [Flink中文官方文档](https://flink.apache.org/zh/)   | 综合类，中文，不全
    
+- [Flink官方博客](https://flink.apache.org/blog/)  |  读文档永远是学习的首选方向
 
-2. [Flink官方博客](https://flink.apache.org/blog/)  |  读文档永远是学习的首选方向
+- [Flink中文社区ververica](https://ververica.cn/)   | Flink中文社区,大量学习资料和视频
 
-3. [Flink中文社区ververica](https://ververica.cn/)   | Flink中文社区,大量学习资料和视频
+- [Apache Flink 中文用户邮件列表](http://apache-flink.147419.n8.nabble.com/)
+
+- [Flink社区包 https://flink-packages.org/](https://flink-packages.org/)
+- [Flink-FLIP](https://cwiki.apache.org/confluence/display/FLINK) | Flink Improvement Proposals
+
+
+## 二、技术博客索引
+
  
 
-4. [JarkWu的博客](http://wuchong.me/)   |  Flink committer,主要是Flink SQL方向
+[JarkWu的博客](http://wuchong.me/)   |  Flink committer,主要是Flink SQL方向
   
 
-5. [VinoYang的博客](https://blog.csdn.net/yanghua_kobe/article/category/6170573)   | Flink项目活跃贡献者，主要是flink早期的一些文章
+[VinoYang的博客](https://blog.csdn.net/yanghua_kobe/article/category/6170573)   | Flink项目活跃贡献者，主要是flink早期的一些文章
 
-6. [flink-china:flink-training-course](https://github.com/flink-china/flink-training-course)  | 本系列课程由 Apache Flink Community China 官方出品。主要是钉钉群里的直播视频和PPT
+[flink-china:flink-training-course](https://github.com/flink-china/flink-training-course)  | 本系列课程由 Apache Flink Community China 官方出品。主要是钉钉群里的直播视频和PPT
 
-7. [realguoshuai的Hadoop生态圈中常用大数据组件文档](https://github.com/realguoshuai/hadoop_study)  | 包含Flink Solr Sparksql ES Scala Kafka Hbase/phoenix Redis Kerberos (项目包含hadoop思维导图 印象笔记 Scala版本简单demo 常用工具类 去敏后的train code,适合入门学习
+[realguoshuai的Hadoop生态圈中常用大数据组件文档](https://github.com/realguoshuai/hadoop_study)  | 包含Flink Solr Sparksql ES Scala Kafka Hbase/phoenix Redis Kerberos (项目包含hadoop思维导图 印象笔记 Scala版本简单demo 常用工具类 去敏后的train code,适合入门学习
 
-8. [zhisheng17的flink博客](https://github.com/zhisheng17/flink-learning)  | 含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容，适合入门学习。 不过一些内容可能要到他付费的知识星球才能看到。
+[zhisheng17的flink博客](https://github.com/zhisheng17/flink-learning)  | 含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容，适合入门学习。 不过一些内容可能要到他付费的知识星球才能看到。
 
-9. [heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)  | 包含Hadoop\Hive\Spark\Storm\Flink\Hbase\Kafka\Zookeeper\Flume\Sqoop\Azkaban\Scala等模块的文章
+[heibaiying/BigData-Notes](https://github.com/heibaiying/BigData-Notes)  | 包含Hadoop\Hive\Spark\Storm\Flink\Hbase\Kafka\Zookeeper\Flume\Sqoop\Azkaban\Scala等模块的文章
 
-10. [Flink Forward Asia 2019](https://ververica.cn/developers/flink-forward-asia-2019/) | 资料位于Flink中文社区ververica.cn
+[Flink Forward Asia 2019](https://ververica.cn/developers/flink-forward-asia-2019/) | 资料位于Flink中文社区ververica.cn
 
-11. [Flink Forward China 2018](https://github.com/flink-china/flink-forward-china-2018)  | 资料位于github
+[Flink Forward China 2018](https://github.com/flink-china/flink-forward-china-2018)  | 资料位于github
 
-12. [youtube: Flink Forward San Francisco 2015-2017](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA) | 需要翻```wall```上外网
+[youtube: Flink Forward San Francisco 2015-2017](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA) | 需要翻```wall```上外网
 
 补充中……
 
 
 
-## 二、优秀文章索引
+## 三、优秀文章索引
 
 ### 1、基础入门
 
@@ -96,7 +108,7 @@ flink的一些学习笔记，将在github上持续更新
 补充中……
 
 
-## 三、学习书籍
+## 四、学习书籍
 [pdf:《追源索骥：透过源码看懂Flink核心框架的执行流程.pdf》](./books/追源索骥：透过源码看懂Flink核心框架的执行流程.pdf) | from github
 
 [pdf:《Introduction to Apache Flink》](./books/Introduction_to_Apache_Flink.pdf) | 英文版,100多页的小册子
@@ -118,7 +130,7 @@ flink的一些学习笔记，将在github上持续更新
 
 补充中……
 
-## 四、相关开源项目
+## 五、相关开源项目
 
 ### 1、flinkx:基于flink实现的分布式数据同步工具
 [flinkx](https://github.com/DTStack/flinkx)
@@ -136,7 +148,7 @@ flink的一些学习笔记，将在github上持续更新
 
 补充中……
 
-## 五、源码实践
+## 六、源码实践
 
 ### 1、入门案例
 
@@ -151,14 +163,11 @@ flink的一些学习笔记，将在github上持续更新
 - Connect:[Flink双流处理:实时对账实现](./detail/Flink双流处理-实时对账实现.pdf)
 
 
+### 3、misc
 
-[wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
-> 亲测可用。 https://github.com/wuchong/flink-sql-submit 1) 能用来提交 SQL 文件的 SqlSubmit 实现。 2） 用于演示的 SQL 示例、Kafka 启动停止脚本、 一份测试数据集、Kafka 数据源生成器
+- [wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
 
 补充中……
-
-## 六、知识细点
-
 
 ## 七、企业案例
 - Tencent
@@ -180,7 +189,4 @@ flink的一些学习笔记，将在github上持续更新
 
 [详情](flink-weekly.md)
 
-## 九、其他
-- [Apache Flink 中文用户邮件列表](http://apache-flink.147419.n8.nabble.com/)
-
-- [flink社区包 https://flink-packages.org/](https://flink-packages.org/)
+## 九、MISC
