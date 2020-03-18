@@ -1,8 +1,29 @@
+- [flink-notes](#flink-notes)
+  * [一、官方资料索引](#--------)
+  * [二、技术博客索引](#--------)
+  * [三、优秀文章索引](#--------)
+    + [1、基础入门](#1-----)
+    + [2、进阶](#2---)
+    + [3、官方实用文档索引](#3---------)
+    + [3、比赛](#3---)
+  * [四、学习书籍](#------)
+  * [五、相关开源项目](#--------)
+    + [1、flinkx:基于flink实现的分布式数据同步工具](#1-flinkx---flink------------)
+    + [2、flinkk8soperator](#2-flinkk8soperator)
+    + [3、Alink](#3-alink)
+  * [六、源码实践](#------)
+    + [1、入门案例](#1-----)
+    + [2、电商行为分析系列](#2---------)
+    + [3、misc](#3-misc)
+  * [七、企业案例](#------)
+  * [八、flink-weekly学习摘要](#--flink-weekly----)
+  * [九、MISC](#--misc)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 # flink-notes
 flink的一些学习笔记，将在github上持续更新
 > [https://github.com/pierre94/flink-notes](https://github.com/pierre94/flink-notes)
-
-[TOC]
 
 
 ## 一、官方资料索引
