@@ -182,9 +182,10 @@ flink的一些学习笔记，将在github上持续更新
 - Connect:[Flink双流处理:实时对账实现](./detail/Flink双流处理-实时对账实现.pdf)
 
 
-### 3、misc
+### 3、FlinkSQL
 
 - [wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
+- [wuchong: Demo：基于 Flink SQL 构建流式应用](http://wuchong.me/blog/2020/02/25/demo-building-real-time-application-with-flink-sql/#more) | Kafka, MySQL, Elasticsearch, Kibana, docker 使用 Flink SQL 构建一个电商用户行为的实时分析应用
 
 补充中……
 
