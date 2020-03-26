@@ -88,25 +88,32 @@ flink的一些学习笔记，将在github上持续更新
 
 ### 2、进阶
 
-[Flink on yarn 官方文档](https://ci.apache.org/projects/flink/flink-docs-master/zh/ops/deployment/yarn_setup.html#start-flink-session)
+#### Flink on yarn
 
-> Flink提供了两种在yarn上运行的模式，分别为Session-Cluster和Per-Job-Cluster模式，本文分析两种模式及启动流程。
+[Flink on yarn 官方文档](https://ci.apache.org/projects/flink/flink-docs-master/zh/ops/deployment/yarn_setup.html#start-flink-session) | Session-Cluster和Per-Job-Cluster模式
 
-[Flink metric 官方文档](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html)
 
-> flink内部收集指标: Counter 计数器、Gauge 一个值、Meter 统计吞吐量，单位时间内发生的次数、Histogram 统计数据分布，Max Min Mean
+#### Metric
+[Flink metric 官方文档](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html) | Counter\Gauge\Meter\Histogram
+
 
 [Flink WaterMark分析](https://juejin.im/post/5bf95810e51d452d705fef33)
 
-[fanrui:在 Flink 算子中使用多线程如何保证不丢数据？](https://mp.weixin.qq.com/s/YWKw8jhTdaDoppkcoYYf7g)
->基于CyclicBarrier实现。对于非 CPU 密集型的任务可以使用该方案来提高 CPU 利用率,有实现demo源码
+#### 算子
+[fanrui:在 Flink 算子中使用多线程如何保证不丢数据？](https://mp.weixin.qq.com/s/YWKw8jhTdaDoppkcoYYf7g) | 基于CyclicBarrier实现,提高 CPU 利用率
 
-[Flink 流式计算在节省资源方面的简单分析](https://ververica.cn/developers/flink-saves-resources-analysis/)
-> Apache Flink 在小米的发展;含与spark的模型对比。
+
+#### checkpoint
 
 [Flink Checkpoint 问题排查实用指南](https://ververica.cn/developers/flick-checkpoint-troubleshooting-practical-guide/)
-> 在实际情况中，我们可能会遇到 Checkpoint 失败，或者 Checkpoint 慢的情况，本文会统一聊一聊 Flink 中 Checkpoint 异常的情况（包括失败和慢），以及可能的原因和排查思路。
 
+#### OPS
+[Flink 流式计算在节省资源方面的简单分析](https://ververica.cn/developers/flink-saves-resources-analysis/) | Apache Flink 在小米的发展;含与spark的模型对比。
+
+#### CEP
+[基于 Flink 构建 CEP 引擎的挑战和实践](https://mp.weixin.qq.com/s?__biz=MzU3Mzg4OTMyNQ==&mid=2247485684&idx=1&sn=61be9ee7ca60afffb2460b743bc6294b&chksm=fd3b86b6ca4c0fa0076ed507b89cb593d4fb2f40e908d129ca0cc3abae84f1de3344fb257f58&scene=21#wechat_redirect)
+
+#### misc
 
 ### 3、官方实用文档索引
 [flink prometheus](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html#prometheus-orgapacheflinkmetricsprometheusprometheusreporter)
@@ -136,8 +143,7 @@ flink的一些学习笔记，将在github上持续更新
 
 [微信读书:《深入理解Flink:实时大数据处理实践》](https://weread.qq.com/web/reader/b19329f071845564b199467) | 包含一部分FlinkML
 
-[微信读书:《Flink原理、实战与性能优化》](https://weread.qq.com/web/reader/56332f30718247bd563ee2f)
-> 阅读中,总体比较全面……  [github源码地址 https://github.com/zlb1028/learning-flink](https://github.com/zlb1028/learning-flink)
+[微信读书:《Flink原理、实战与性能优化》](https://weread.qq.com/web/reader/56332f30718247bd563ee2f) | [github源码地址 https://github.com/zlb1028/learning-flink](https://github.com/zlb1028/learning-flink)
 
 [flink中文社区出品: flink知识图谱](./books/Apache-Flink-Stateful-Computations-over-Data-Streams.pdf) | 脑图形式: 一图在手,学好flink不愁! (此图待深入学习)
 
@@ -146,6 +152,8 @@ flink的一些学习笔记，将在github上持续更新
 [为什么学习flink](./books/flink-china-为什么学习flink.pdf)
 
 [flink关于checkpoint的疑虑](./books/flink%20关于checkpoint%20疑虑%20.pdf)
+
+[flink十大技术难点实践](./books/flink十大难题实战.pdf)
 
 补充中……
 
