@@ -9,14 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>flink-demo</artifactId>
+    <artifactId>flink-io-demo</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.alibaba.nacos</groupId>
-            <artifactId>nacos-client</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-    </dependencies>
 
 </project>
