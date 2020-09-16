@@ -16,29 +16,32 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <flink.version>1.10.0</flink.version>
-        <scala.binary.version>2.11</scala.binary.version>
-        <scala.version>2.11.12</scala.version>
+        <scala.binary.version>2.12</scala.binary.version>
+        <scala.version>2.12.11</scala.version>
+<!--        <type>compile</type>-->
+        <type>provided</type>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-jdbc_${scala.binary.version}</artifactId>
-            <version>${flink.version}</version>
-        </dependency>
         <!-- Apache Flink dependencies -->
         <!-- These dependencies are provided, because they should not be packaged into the JAR file. -->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-scala_${scala.binary.version}</artifactId>
             <version>${flink.version}</version>
-            <scope>provided</scope>
+            <scope>${type}</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-streaming-scala_${scala.binary.version}</artifactId>
             <version>${flink.version}</version>
-            <scope>provided</scope>
+            <scope>${type}</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+            <version>${flink.version}</version>
+            <scope>${type}</scope>
         </dependency>
 
         <!-- Scala Library, provided by Flink as well. -->
@@ -46,7 +49,7 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
-            <scope>provided</scope>
+            <scope>${type}</scope>
         </dependency>
 
         <dependency>
