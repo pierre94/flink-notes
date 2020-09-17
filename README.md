@@ -2,7 +2,7 @@
 
 
 # flink-notes
-flink的一些学习笔记，将在github上持续更新
+flink的一些学习材料，将在github上持续更新
 > [https://github.com/pierre94/flink-notes](https://github.com/pierre94/flink-notes)
 
 
@@ -22,6 +22,8 @@ flink的一些学习笔记，将在github上持续更新
  
 
 - [JarkWu的博客](http://wuchong.me/)   |  Flink committer
+
+- [jrwang的flink源码解读系列](https://blog.jrwang.me/tags/flink/ ) | 源码解读质量不错
 
 - [VinoYang的博客](https://blog.csdn.net/yanghua_kobe/article/category/6170573)   | Flink项目活跃贡献者，主要是flink早期的一些文章
 
@@ -62,7 +64,7 @@ flink的一些学习笔记，将在github上持续更新
 
 #### Metric
 - [Flink metric 官方文档](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html) | Counter\Gauge\Meter\Histogram
-
+- [详解 Flink 指标、监控与告警](https://mp.weixin.qq.com/s/wfV1SfOKa1D9_ZF2rdO2kg) | 
 
 
 #### 算子
@@ -74,22 +76,50 @@ flink的一些学习笔记，将在github上持续更新
 #### checkpoint
 
 - [Flink Checkpoint 问题排查实用指南](https://ververica.cn/developers/flick-checkpoint-troubleshooting-practical-guide/)
+- [Flink 1.11 Unaligned Checkpoint 解析](https://mp.weixin.qq.com/s/6zUCeFGw4_AAcQzw4ugWoQ) | 反压下的checkpoint
 
 #### OPS
 - [Flink 流式计算在节省资源方面的简单分析](https://ververica.cn/developers/flink-saves-resources-analysis/) | Apache Flink 在小米的发展;含与spark的模型对比。
 - [Flink HA & 恢复策略 &并发度 --待补充]()
+- [Flink 中的应用部署：当前状态与新应用模式](https://mp.weixin.qq.com/s/6KYzhaskos8fk4oKeh_xcA) | Flink 1.11 引入了 Application 模式（应用模式）
+- [数据处理能力相差 2.4 倍？Flink 使用 RocksDB 和 Gemini 的性能对比实验](https://mp.weixin.qq.com/s/Fu2m_HEO9sdp4asKYAkY1w)
 
 #### CEP
 - [基于 Flink 构建 CEP 引擎的挑战和实践](https://mp.weixin.qq.com/s?__biz=MzU3Mzg4OTMyNQ==&mid=2247485684&idx=1&sn=61be9ee7ca60afffb2460b743bc6294b&chksm=fd3b86b6ca4c0fa0076ed507b89cb593d4fb2f40e908d129ca0cc3abae84f1de3344fb257f58&scene=21#wechat_redirect)
 
-#### misc
+#### CDC
+- [Flink SQL CDC 上线！我们总结了 13 条生产实践经验](https://mp.weixin.qq.com/s/Mfn-fFegb5wzI8BIHhNGvQ) |  Flink SQL CDC 在生产环境的落地实践以及总结的实战经验
+- [Flink SQL CDC 的介绍和教程](https://www.bilibili.com/video/BV1zt4y1D7kt/) | B站视频
+- [flink-cdc-connectors 项目官网](https://github.com/ververica/flink-cdc-connectors) |  flink-cdc-connectors 项目官网 github
+- [自定义 Format 消费 Maxwell CDC 数据](https://mp.weixin.qq.com/s/HaSi4E1Ez4jV06RWAQ2wAQ) 
 
-### 3、官方实用文档索引
+#### SQL
+- [Flink SQL FileSystem Connector 分区提交与自定义小文件合并策略​](https://mp.weixin.qq.com/s/4d7pEXzUtTaaKSYlf1e_Cg) 
+- [Flink 1.11 SQL 使用攻略](https://mp.weixin.qq.com/s/BBRw3sR323d-jaxxONYknQ)
+
+#### 源码分析
+- [万字长文详解 Flink 中的 CopyOnWriteStateTable](https://mp.weixin.qq.com/s/q-xbKTxlw35z8R1BUWv91w)
+
+#### misc
+- [解决问题 1474 个，Flink 1.11 究竟有哪些易用性上的改善？](https://mp.weixin.qq.com/s/yuR39vqkuPPeLfq2ncBTkg)
+
+### 3、Flink应用文章
+
+#### ETL
+- [基于 Flink 的典型 ETL 场景实现方案](https://mp.weixin.qq.com/s/l--W_GUOGXOWhGdwYqsh9A) | 美团点评的实践
+- [Flink 1.11 新特性之 SQL Hive Streaming 简单示例](https://mp.weixin.qq.com/s/oovUAfp0i662oYp282-26A)
+- [字节跳动基于Flink的MQ-Hive实时数据集成](https://mp.weixin.qq.com/s/SDkgYqBZrejObpJ_2bpURw)
+
+#### 机器学习
+- [微博基于 Flink 的机器学习实践](https://mp.weixin.qq.com/s/NeyF3t6PRtYG2c9OZ-ICAA)
+
+
+### 4、官方实用文档索引
 - [flink prometheus](https://ci.apache.org/projects/flink/flink-docs-release-1.9/monitoring/metrics.html#prometheus-orgapacheflinkmetricsprometheusprometheusreporter)
 
 
 
-### 3、比赛
+### 5、比赛
 
 - [Apache Flink极客挑战赛——Flink TPC-DS性能优化](https://tianchi.aliyun.com/competition/entrance/231742/introduction?spm=5176.12281949.1003.4.41af2448eCyOzJ)
 
