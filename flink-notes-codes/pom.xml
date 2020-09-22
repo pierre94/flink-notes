@@ -18,7 +18,6 @@
         <flink.version>1.10.0</flink.version>
         <scala.binary.version>2.12</scala.binary.version>
         <scala.version>2.12.11</scala.version>
-<!--        <type>compile</type>-->
         <type>provided</type>
     </properties>
 
@@ -221,6 +220,13 @@
                     <version>${flink.version}</version>
                     <scope>compile</scope>
                 </dependency>
+                <dependency>
+                    <groupId>org.apache.flink</groupId>
+                    <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+                    <version>${flink.version}</version>
+                    <scope>compile</scope>
+                </dependency>
+
                 <dependency>
                     <groupId>org.scala-lang</groupId>
                     <artifactId>scala-library</artifactId>

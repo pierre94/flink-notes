@@ -159,8 +159,7 @@ flink的一些学习材料，将在github上持续更新
 ### 3、Alink
 - [Alink github地址](https://github.com/alibaba/Alink)
 
-
-## 六、源码实践
+## 六、开发实践
 
 ### 1、入门案例
 
@@ -179,6 +178,10 @@ flink的一些学习材料，将在github上持续更新
 
 - [wuchong: Flink 1.9 实战：使用 SQL 读取 Kafka 并写入 MySQL](http://wuchong.me/blog/2019/09/02/flink-sql-1-9-read-from-kafka-write-into-mysql/)
 - [wuchong: Demo：基于 Flink SQL 构建流式应用](http://wuchong.me/blog/2020/02/25/demo-building-real-time-application-with-flink-sql/#more) | Kafka, MySQL, Elasticsearch, Kibana, docker
+
+### 4、Cloudera的flink教程
+- [Tutorials for Flink on Cloudera](https://github.com/cloudera/flink-tutorials) 
+
 
 ## 七、企业案例
 - Tencent
