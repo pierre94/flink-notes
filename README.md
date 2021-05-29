@@ -206,3 +206,7 @@ flink的一些学习材料，将在github上持续更新
 ## 九、MISC
 
 - [如何从小白成长为 Apache Committer?](http://wuchong.me/blog/2019/02/12/how-to-become-apache-committer/) | 希望自己2~3年内也能成为一个Apache Committer
+
+## 微信公众号
+更多文章与内容请关注:
+![](.README_images/5a488a3b.png)
