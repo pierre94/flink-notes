@@ -209,4 +209,4 @@ flink的一些学习材料，将在github上持续更新
 
 ## 微信公众号
 更多文章与内容请关注:
-![](.README_images/5a488a3b.png)
+![](https://bear2-10045049.cos.ap-shanghai.myqcloud.com/mzmq5nkwlf.png)
