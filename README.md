@@ -40,6 +40,7 @@ flink的一些学习材料，将在github上持续更新
 - [Flink Forward China 2018](https://github.com/flink-china/flink-forward-china-2018)  | 资料位于github
 
 - [youtube: Flink Forward San Francisco 2015-2017](https://www.youtube.com/channel/UCY8_lgiZLZErZPF47a2hXMA) | 需要翻```wall```上外网
+- [collabH](https://github.com/collabH/repository) | 470+ star的项目
 
 
 ## 三、优秀文章索引
